@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at TestCalc.v(19): object "reset" differs only in case from object "Reset" in the same scope File: C:/Users/Kit Man/Documents/Quartus/Project/CPU/TestCalc.v Line: 19
+Warning (10268): Verilog HDL information at CPU.v(80): always construct contains both blocking and non-blocking assignments File: C:/Users/Kit Man/Documents/Quartus/Project/CPU/CPU.v Line: 80

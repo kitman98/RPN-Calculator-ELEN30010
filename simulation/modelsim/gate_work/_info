@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kit Man/Documents/Quartus/Project/CPU/simulation/modelsim
+vCPU
+Z1 !s110 1556598084
+!i10b 1
+!s100 a>bYcgfSgZlJP]]fn3Jz53
+Iz2Si4T5Cgn9L3n>:eT2XR2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1556598074
+8MyComputer.vo
+FMyComputer.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1556598083.000000
+!s107 MyComputer.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|MyComputer.vo|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+Z5 tCvgOpt 0
+n@c@p@u
+vtest_01
+R1
+!i10b 1
+!s100 FFcGNHEh`mVZNXPLzCE]@2
+I;gN;BQnF=O:8i98586l^@3
+R2
+R0
+w1556597693
+8C:/Users/Kit Man/Documents/Quartus/Project/CPU/test_01.v
+FC:/Users/Kit Man/Documents/Quartus/Project/CPU/test_01.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1556598084.000000
+!s107 C:/Users/Kit Man/Documents/Quartus/Project/CPU/test_01.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kit Man/Documents/Quartus/Project/CPU|C:/Users/Kit Man/Documents/Quartus/Project/CPU/test_01.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work {+incdir+C:/Users/Kit Man/Documents/Quartus/Project/CPU}
+R5

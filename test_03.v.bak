@@ -1,0 +1,9 @@
+module test_03;
+
+	reg [7:0] neg = 8'd1111_0101;
+
+	reg [6:0] h0, h1, h2, h3;
+	
+	Disp2cNum(neg, 1, h0, h1, h2, h3);
+
+endmodule

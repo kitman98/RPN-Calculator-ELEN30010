@@ -1,0 +1,29 @@
+`timescale 1ms/1us
+
+module test_01;
+	
+	reg clk, reset, sample, turbo;
+	reg [2:0] btns;
+	reg [7:0] Din;
+	
+	wire [3:0] debug;
+	wire[7:0] Dout, IP;
+	wire Dval;
+	wire[5:0] GPO;
+	
+	
+	
+	
+	CPU CPUtest(clk, btns, Din, reset, sample, turbo, debug, Dout, GPO, IP);
+	
+	initial clk = 0;
+	
+	initial forever #10 clk = !clk;
+	
+	initial begin 
+		reset = 1;
+		#30  reset = 0;
+		#10 reset = 1;
+		#10 reset = 0;
+		#100 $stop;
+	end

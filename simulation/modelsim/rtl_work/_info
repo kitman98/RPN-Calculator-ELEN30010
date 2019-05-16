@@ -1,0 +1,240 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kit Man/Documents/Quartus/Project/CPU/simulation/modelsim
+vAsyncROM
+Z1 !s110 1557486184
+!i10b 1
+!s100 nz9SKf[9YBEj;f1Bg_SY70
+IzJELLAc>l=1oF=YD?MSik2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1557485672
+8C:/Users/Kit Man/Documents/Quartus/Project/CPU/ROM.v
+FC:/Users/Kit Man/Documents/Quartus/Project/CPU/ROM.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1557486184.000000
+!s107 C:/Users/Kit Man/Documents/Quartus/Project/CPU/CPU.vh|C:/Users/Kit Man/Documents/Quartus/Project/CPU/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kit Man/Documents/Quartus/Project/CPU|C:/Users/Kit Man/Documents/Quartus/Project/CPU/ROM.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Kit Man/Documents/Quartus/Project/CPU}
+Z7 tCvgOpt 0
+n@async@r@o@m
+vconvertSigned
+R1
+!i10b 1
+!s100 C7?1R:W^oS<P1JdVPkW`S1
+IkhMGY^LH:KFZPmmRk0ZDf1
+R2
+R0
+Z8 w1557125523
+Z9 8C:/Users/Kit Man/Documents/Quartus/Project/CPU/AuxMod.v
+Z10 FC:/Users/Kit Man/Documents/Quartus/Project/CPU/AuxMod.v
+L0 60
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 C:/Users/Kit Man/Documents/Quartus/Project/CPU/AuxMod.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kit Man/Documents/Quartus/Project/CPU|C:/Users/Kit Man/Documents/Quartus/Project/CPU/AuxMod.v|
+!i113 1
+R5
+R6
+R7
+nconvert@signed
+vDebounce
+R1
+!i10b 1
+!s100 zPHo<bL51JH8m0Qbf0ng12
+IXHcJaZH7cmSMMgHB@o20^1
+R2
+R0
+R8
+R9
+R10
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@debounce
+vDetectFallingEdge
+R1
+!i10b 1
+!s100 [ZJhWTlBSDiiU64g5>fEU1
+I2HCPPgH@75_4V<fbBf0MC1
+R2
+R0
+R8
+R9
+R10
+L0 116
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@detect@falling@edge
+vDisp2cNum
+R1
+!i10b 1
+!s100 fJiainiP5QEzbIiQ;?n9Y2
+IjzLb]dViM?FPoakWWkCO@2
+R2
+R0
+R8
+R9
+R10
+L0 35
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp2c@num
+vDispDec
+R1
+!i10b 1
+!s100 N_T8_UX4BiP`SQzefU>^@0
+IZm2Nkj^nOTd2ZBKR@9D`K0
+R2
+R0
+R8
+R9
+R10
+L0 51
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp@dec
+vDispHex
+R1
+!i10b 1
+!s100 3kM<0Va2C`>OB6@F5dGaW3
+IdnXl1;AabjEaa4M?Q6;@R1
+R2
+R0
+R8
+R9
+R10
+L0 68
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp@hex
+vMyComputer
+R1
+!i10b 1
+!s100 MK=?fGcS:6FW@lheaY^fk0
+I?BQl@d33JKe@8fW=FTX@Y1
+R2
+R0
+w1556692509
+8C:/Users/Kit Man/Documents/Quartus/Project/CPU/MyComputer.v
+FC:/Users/Kit Man/Documents/Quartus/Project/CPU/MyComputer.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kit Man/Documents/Quartus/Project/CPU/MyComputer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kit Man/Documents/Quartus/Project/CPU|C:/Users/Kit Man/Documents/Quartus/Project/CPU/MyComputer.v|
+!i113 1
+R5
+R6
+R7
+n@my@computer
+vSSeg
+R1
+!i10b 1
+!s100 ^[9WJA^b]8h2cIQz^8QCZ3
+ICAdi==_Z<=nkcXiiVQ8883
+R2
+R0
+R8
+R9
+R10
+L0 87
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@s@seg
+vSynchroniser
+R1
+!i10b 1
+!s100 h<6LNiWP=fl?0=34Cl9Wz3
+I@n=hfAJdlX;m_E``EZ9R;3
+R2
+R0
+R8
+R9
+R10
+L0 76
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@synchroniser

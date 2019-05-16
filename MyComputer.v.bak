@@ -1,0 +1,16 @@
+module MyComputer(input [9:0] SW, [3:0] KEY, CLOCK_50, output [9:0] LEDR, [6:0] HEX0, [6:0] HEX1, [6:0] HEX2, [6:0] HEX3, [6:0] HEX4, [6:0] HEX5);
+
+		wire Dval;
+		wire [7:0] IP;
+		wire [7:0] Dout;
+		
+		CPU cpu(CLOCK_50, ~KEY[2:0], SW[7:0], reset_db, ~KEY[3], SW[8]
+					LEDR[9:6], Dout, Dval, LEDR[5:0], IP);
+		
+		wire reset_db;
+		
+		Debounce db(clk, SW[9], reset_db);
+		
+		Disp2cNum dnum(Dout,Dval, HEX0, HEX1, HEX2, HEX3)
+	
+endmodule

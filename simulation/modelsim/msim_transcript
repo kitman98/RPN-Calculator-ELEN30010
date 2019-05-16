@@ -1,0 +1,68 @@
+# Reading D:/IntelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do MyComputer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/IntelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Kit\ Man/Documents/Quartus/Project/CPU {C:/Users/Kit Man/Documents/Quartus/Project/CPU/AuxMod.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:03:04 on May 10,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kit Man/Documents/Quartus/Project/CPU" C:/Users/Kit Man/Documents/Quartus/Project/CPU/AuxMod.v 
+# -- Compiling module Debounce
+# -- Compiling module Disp2cNum
+# -- Compiling module DispDec
+# -- Compiling module convertSigned
+# -- Compiling module DispHex
+# -- Compiling module Synchroniser
+# -- Compiling module SSeg
+# -- Compiling module DetectFallingEdge
+# 
+# Top level modules:
+# 	Debounce
+# 	Disp2cNum
+# 	DispHex
+# 	DetectFallingEdge
+# End time: 21:03:04 on May 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Kit\ Man/Documents/Quartus/Project/CPU {C:/Users/Kit Man/Documents/Quartus/Project/CPU/MyComputer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:03:04 on May 10,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kit Man/Documents/Quartus/Project/CPU" C:/Users/Kit Man/Documents/Quartus/Project/CPU/MyComputer.v 
+# -- Compiling module MyComputer
+# 
+# Top level modules:
+# 	MyComputer
+# End time: 21:03:04 on May 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Kit\ Man/Documents/Quartus/Project/CPU {C:/Users/Kit Man/Documents/Quartus/Project/CPU/ROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:03:04 on May 10,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kit Man/Documents/Quartus/Project/CPU" C:/Users/Kit Man/Documents/Quartus/Project/CPU/ROM.v 
+# -- Compiling module AsyncROM
+# 
+# Top level modules:
+# 	AsyncROM
+# End time: 21:03:04 on May 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Kit\ Man/Documents/Quartus/Project/CPU {C:/Users/Kit Man/Documents/Quartus/Project/CPU/CPU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:03:04 on May 10,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kit Man/Documents/Quartus/Project/CPU" C:/Users/Kit Man/Documents/Quartus/Project/CPU/CPU.v 
+# -- Compiling module CPU
+# ** Error: C:/Users/Kit Man/Documents/Quartus/Project/CPU/CPU.v(67): (vlog-2730) Undefined variable: 'instruction'.
+# ** Error: C:/Users/Kit Man/Documents/Quartus/Project/CPU/CPU.v(89): (vlog-2730) Undefined variable: 'Reg'.
+# ** Error (suppressible): C:/Users/Kit Man/Documents/Quartus/Project/CPU/CPU.v(166): (vlog-2388) 'instruction' already declared in this scope (CPU).
+# ** Error: C:/Users/Kit Man/Documents/Quartus/Project/CPU/CPU.v(170): 'Formal' must not be declared to be an array: Reg.
+# End time: 21:03:04 on May 10,2019, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: D:/IntelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./MyComputer_run_msim_rtl_verilog.do line 11
+# D:/IntelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/Kit\ Man/Documents/Quartus/Project/CPU {C:/Users/Kit Man/Documents/Quartus/Project/CPU/CPU.v}"
